@@ -1,11 +1,25 @@
-import React from 'react';
+import React from "react";
+import "../App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const Resume = () => {
+const Resume = ({ setDisplayOption }) => {
   return (
-    <div className="App">
+    <div>
       Resume
+      <div
+        className="next-button"
+        role="button"
+        aria-pressed="false"
+        onClick={() => {
+          setDisplayOption("projects");
+        }}
+        onKeyDown={() => {}}
+      >
+        <FontAwesomeIcon icon={faCircleArrowRight} />
+      </div>
     </div>
   );
-}
+};
 
 export default Resume;
