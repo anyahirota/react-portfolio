@@ -12,7 +12,7 @@ const Resume = ({ setDisplayOption }) => {
         role="button"
         aria-pressed="false"
         onClick={() => {
-          setDisplayOption("projects");
+          setDisplayOption("howdy");
         }}
         onKeyDown={() => {}}
       >

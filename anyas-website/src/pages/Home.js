@@ -7,6 +7,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Resume from "./Resume";
 import Projects from "./Projects";
+//add contact 
 
 const Home = () => {
   const [displayOption, setDisplayOption] = useState("howdy");
@@ -79,7 +80,7 @@ const Home = () => {
           {renderButton("aboutMe", "ABOUT ME")}
           {renderButton("skills", "SKILLS")}
           {renderButton("resume", "RESUME")}
-          {renderButton("projects", "PROJECTS")}
+          {/* {renderButton("projects", "PROJECTS")} */}
         </div>
       </div>
     </div>
