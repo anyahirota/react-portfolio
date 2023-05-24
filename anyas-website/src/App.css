@@ -3,7 +3,7 @@
   height: 100vh;
   background-color: #f5e4e3;
   font-family: "Josefin";
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .App-header {
@@ -27,6 +27,11 @@
 }
 
 .content {
+  max-width: 700px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #f5e4e3;
+  padding-bottom: 30px;
 }
 
 .icons {
@@ -95,4 +100,9 @@
 }
 
 .howdy > div {
+}
+
+.about-me-text {
+  font-size: 15px;
+  line-height: 20px;
 }
