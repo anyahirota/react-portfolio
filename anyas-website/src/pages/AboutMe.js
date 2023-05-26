@@ -1,11 +1,16 @@
 import React from "react";
 import "../App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const AboutMe = ({ setDisplayOption }) => {
+const AboutMe = () => {
   return (
     <div>
+      <div className="about-me-pic">
+        <img
+          className="pic-of-face"
+          alt="image of Anya"
+          src="images/anya_pic.jpg"
+        ></img>
+      </div>
       <div className="about-me-text">
         <p>Hi there. I'm Anya Hirota.</p>
         <br />
@@ -48,19 +53,6 @@ const AboutMe = ({ setDisplayOption }) => {
           Tech is great but here are some of my other hobbies: -Cooking
           -Crafting -Singing -Traveling -Model UN -Animation
         </p>
-      </div>
-      <div className="howdy-message">
-        <div
-          className="next-button"
-          role="button"
-          aria-pressed="false"
-          onClick={() => {
-            setDisplayOption("skills");
-          }}
-          onKeyDown={() => {}}
-        >
-          <FontAwesomeIcon icon={faCircleArrowRight} />
-        </div>
       </div>
     </div>
   );
