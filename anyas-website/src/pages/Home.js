@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import {
   faCircleArrowRight,
-  aCircleArrowLeft,
   faCircleArrowLeft,
 } from "@fortawesome/free-solid-svg-icons";
 import Howdy from "./Howdy";
