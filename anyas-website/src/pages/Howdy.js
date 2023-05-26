@@ -1,9 +1,7 @@
 import React from "react";
 import "../App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
-const Howdy = ({ setDisplayOption }) => {
+const Howdy = () => {
   return (
     <div className="howdy">
       <div className="howdy-message">
@@ -16,17 +14,6 @@ const Howdy = ({ setDisplayOption }) => {
         <p>CURIOUS.</p>
         <p>ADVENTUROUS.</p>
         <p>CREATIVE.</p>
-        <div
-          className="next-button"
-          role="button"
-          aria-pressed="false"
-          onClick={() => {
-            setDisplayOption("aboutMe");
-          }}
-          onKeyDown={() => {}}
-        >
-          <FontAwesomeIcon icon={faCircleArrowRight} />
-        </div>
       </div>
     </div>
   );
