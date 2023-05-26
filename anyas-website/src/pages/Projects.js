@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
       Projects
-      {/* <img
+      <img
         class="project-gif-img"
         src="https://calcamper-seed.s3-us-west-1.amazonaws.com/gif1.gif"
       ></img>
@@ -17,7 +17,7 @@ const Projects = () => {
       <img
         class="project-gif-img"
         src="https://yikes-yokai.s3-us-west-1.amazonaws.com/yy_readme/shootinggif.gif"
-      ></img> */}
+      ></img>
     </div>
   );
 };
