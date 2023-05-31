@@ -5,11 +5,13 @@ const AboutMe = () => {
   return (
     <div>
       <div className="about-me-pic">
-        <img
-          className="pic-of-face"
-          alt="Anya's headshot"
-          src="images/anya_pic.jpg"
-        ></img>
+        <div className="pic-of-face-container">
+          <img
+            className="pic-of-face"
+            alt="Anya's headshot"
+            src="images/anya_hirota.jpg"
+          ></img>
+        </div>
       </div>
       <div className="about-me-text">
         <p>Hi there. I'm Anya Hirota.</p>

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "../App.css";
-import { Document, Page } from "react-pdf";
+import { Document, Page, pdfjs } from "react-pdf";
+import resumePlaceholder from "../resume_placeholder.pdf";
+pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const Resume = () => {
   return (
@@ -14,11 +16,8 @@ const Resume = () => {
           alt="resume"
           src="images/resume_placeholder.jpg"
         ></img>
-        {/* <Document
-          file={resume}
-          // onLoadSuccess={onDocumentLoadSuccess}
-        >
-          <Page pageNumber={1} />
+        {/* <Document file={resumePlaceholder} onLoadError={console.error}>
+          <Page pageIndex={0} />
         </Document> */}
       </div>
     </div>
