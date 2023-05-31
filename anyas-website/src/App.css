@@ -64,10 +64,15 @@ th {
 .page-title {
   font-size: 50px;
   font-weight: bold;
+  margin-right: 5px;
 }
 
 .page-title-margin {
   margin-bottom: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .page-align-center {
@@ -147,11 +152,18 @@ th {
   line-height: 20px;
 }
 
-.pic-of-face {
+.pic-of-face-container {
   width: 200px;
-  height: auto;
+  height: 200px;
   border-radius: 100px;
   border: 5px solid black;
+  overflow: hidden;
+}
+
+.pic-of-face {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .about-me-pic {
@@ -181,6 +193,65 @@ th {
   margin-right: 3px;
 }
 
+.skills-container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
 .skills-key {
+  margin-bottom: 30px;
+}
+
+.project {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+.project-title {
+  font-size: 25px;
+  font-weight: bold;
   margin-bottom: 15px;
+}
+
+.project-blurb {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.project-image {
+  margin-bottom: 15px;
+}
+
+.link-button:hover {
+  cursor: pointer;
+  color: hotpink;
+}
+
+.project-stack {
+  font-size: 12px;
+  margin-bottom: 15px;
+  line-height: 15px;
+}
+.project-play-gif {
+  width: 130px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  border: 3px solid black;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.project-play-gif:hover {
+  color: #f5e4e3;
+  background-color: hotpink;
+  border: 3px solid hotpink;
+  cursor: pointer;
 }
