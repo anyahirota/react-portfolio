@@ -132,9 +132,7 @@ const Home = () => {
           {renderButton("resume", "RESUME")}
           {renderButton("projects", "PROJECTS")}
         </div>
-        <div className="contact">
-          anyahirota@gmail.com +1 415 889 0667
-        </div>
+        <div className="contact">anyahirota@gmail.com +1 415 889 0667</div>
       </div>
     </div>
   );

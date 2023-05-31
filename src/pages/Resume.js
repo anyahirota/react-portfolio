@@ -6,7 +6,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 
 const Resume = () => {
   return (
-    <div>
+    <div className="margin-30">
       <h1 className="page-title-margin">
         <span className="page-title">Resume</span>
       </h1>

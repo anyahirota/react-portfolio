@@ -7,7 +7,7 @@ const Projects = () => {
   const [displayFridgeFriendGif, setDisplayFridgeFriendGif] = useState(false);
   const [displayYikesYokaiGif, setDisplayYikesYokaiGif] = useState(false);
   return (
-    <div>
+    <div className="margin-30">
       <h1 className="page-title-margin">
         <span className="page-title">Projects</span> (from 2020)
       </h1>
