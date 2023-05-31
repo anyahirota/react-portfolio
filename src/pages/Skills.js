@@ -45,7 +45,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills-container">
+    <div className="skills-container margin-30">
       <h1 className="page-title-margin">
         <span className="page-title">Skills</span> (So Far.)
       </h1>
