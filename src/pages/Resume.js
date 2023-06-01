@@ -8,15 +8,9 @@ const Resume = () => {
         <span className="page-title large-font">Resume</span>
       </h1>
       <div className="resume-container flex-column">
-        <div
-          className="action-button"
-          role="button"
-          aria-pressed="false"
-          onClick={() => {}}
-          onKeyDown={() => {}}
-        >
+        <a className="action-button" href="images/resume_placeholder.pdf" download>
           Download Resume
-        </div>
+        </a>
         <img
           className="pic_of_resume"
           alt="resume"
