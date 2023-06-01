@@ -45,12 +45,12 @@ const Skills = () => {
   };
 
   return (
-    <div className="skills-container margin-30">
-      <h1 className="page-title-margin">
-        <span className="page-title">Skills</span> (So Far.)
+    <div className="skills-container flex-column margin-30">
+      <h1 className="page-title-margin margin-bottom-30">
+        <span className="page-title large-font">Skills</span> (So Far.)
       </h1>
 
-      <div className="skills-key">
+      <div className="skills-key margin-bottom-30">
         <div>
           Used Very Often / Current Main Technologies ={" "}
           <span className="flame-icon">

@@ -4,7 +4,7 @@ import "../App.css";
 const AboutMe = () => {
   return (
     <div className="margin-30">
-      <div className="about-me-pic">
+      <div className="about-me-pic margin-bottom-30">
         <div className="pic-of-face-container">
           <img
             className="pic-of-face"
