@@ -50,7 +50,9 @@ const Home = () => {
   const renderButton = (navTitle, label) => {
     return (
       <div
-        className={`button ${navTitle === displayOption ? "selected" : ""}`}
+        className={`button pink-hover ${
+          navTitle === displayOption ? "bold-font" : ""
+        }`}
         role="button"
         aria-pressed="false"
         onClick={() => {
@@ -67,7 +69,7 @@ const Home = () => {
     <div className="App">
       <header className="App-header">
         <div
-          className="back-to-anya"
+          className="pink-hover"
           role="button"
           aria-pressed="false"
           onClick={() => {
@@ -79,27 +81,30 @@ const Home = () => {
         </div>
         <div className="icons">
           <a
-            className="icon"
+            className="icon pink-hover"
             href="https://www.linkedin.com/in/anya-hirota-59392560/"
           >
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
-          <a className="icon" href="https://github.com/anyahirota?tab=overview">
+          <a
+            className="icon pink-hover"
+            href="https://github.com/anyahirota?tab=overview"
+          >
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </div>
       </header>
-      <div className="body">
+      <div className="body flex-column">
         <div
           className={
             displayOption === "howdy"
-              ? "arrow-container one-arrow"
-              : "arrow-container two-arrow"
+              ? "arrow-container one-arrow large-font"
+              : "arrow-container two-arrow large-font"
           }
         >
           {displayOption !== "howdy" ? (
             <div
-              className="next-button"
+              className="next-button pink-hover"
               role="button"
               aria-pressed="false"
               onClick={() => {
@@ -111,7 +116,7 @@ const Home = () => {
             </div>
           ) : null}
           <div
-            className="next-button"
+            className="next-button pink-hover"
             role="button"
             aria-pressed="false"
             onClick={() => {

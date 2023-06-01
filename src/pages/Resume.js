@@ -1,24 +1,27 @@
-import React, { useState } from "react";
+import React from "react";
 import "../App.css";
-import { Document, Page, pdfjs } from "react-pdf";
-import resumePlaceholder from "../resume_placeholder.pdf";
-pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 
 const Resume = () => {
   return (
     <div className="margin-30">
-      <h1 className="page-title-margin">
-        <span className="page-title">Resume</span>
+      <h1 className="page-title-margin margin-bottom-30">
+        <span className="page-title large-font">Resume</span>
       </h1>
-      <div className="resume-container">
+      <div className="resume-container flex-column">
+        <div
+          className="action-button"
+          role="button"
+          aria-pressed="false"
+          onClick={() => {}}
+          onKeyDown={() => {}}
+        >
+          Download Resume
+        </div>
         <img
           className="pic_of_resume"
           alt="resume"
           src="images/resume_placeholder.jpg"
         ></img>
-        {/* <Document file={resumePlaceholder} onLoadError={console.error}>
-          <Page pageIndex={0} />
-        </Document> */}
       </div>
     </div>
   );

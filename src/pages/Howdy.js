@@ -4,7 +4,7 @@ import "../App.css";
 const Howdy = () => {
   return (
     <div className="howdy">
-      <div className="howdy-message">
+      <div className="howdy-message margin-bottom-30 large-font">
         <p>HOWDY.</p>
         <p>I'M ANYA.</p>
         <p>SOFTWARE DEV.</p>

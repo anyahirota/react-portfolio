@@ -14,11 +14,11 @@ const Project = ({
   gifURL,
 }) => {
   return (
-    <div className="project">
+    <div className="project flex-column margin-bottom-30">
       <h2 className="project-title">- {title} -</h2>
       <p className="project-blurb">{blurb}</p>
       <div
-        className="project-play-gif"
+        className="action-button"
         role="button"
         aria-pressed="false"
         onClick={() => {
@@ -37,12 +37,12 @@ const Project = ({
       </div>
       <div className="project-stack">
         <p>
-          <span className="selected">Tech Used: </span>
+          <span className="bold-font">Tech Used: </span>
           {stack}
         </p>
       </div>
       <div>
-        <a className="link-button" href={githubLink}>
+        <a className="pink-hover" href={githubLink}>
           Github Repo
         </a>
       </div>

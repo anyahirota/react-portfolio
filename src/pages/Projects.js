@@ -8,8 +8,8 @@ const Projects = () => {
   const [displayYikesYokaiGif, setDisplayYikesYokaiGif] = useState(false);
   return (
     <div className="margin-30">
-      <h1 className="page-title-margin">
-        <span className="page-title">Projects</span> (from 2020)
+      <h1 className="page-title-margin margin-bottom-30">
+        <span className="page-title large-font">Projects</span> (from 2020)
       </h1>
       <div className="projects">
         <Project
