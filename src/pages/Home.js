@@ -11,7 +11,6 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Resume from "./Resume";
 import Projects from "./Projects";
-//add contact //
 
 const Home = () => {
   const [displayOption, setDisplayOption] = useState("howdy");

@@ -1,16 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import './fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import "./fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
 
-const container = document.getElementById('root');
+// deploy: https://www.youtube.com/watch?v=pZggyJQKtlM
+const container = document.getElementById("root");
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <App/>
+      <App />
     </Router>
   </React.StrictMode>,
   container
