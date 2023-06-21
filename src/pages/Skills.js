@@ -153,6 +153,12 @@ const Skills = () => {
           <td>Microsoft SQL Server</td> {displayFlame(2)}
         </tr>
         <tr>
+          <td>Heroku</td> {displayFlame(2)}
+        </tr>
+        <tr>
+          <td>App Engine</td> {displayFlame(2)}
+        </tr>
+        <tr>
           <td>PostgreSQL</td> {displayFlame(1)}
         </tr>
         <tr>
