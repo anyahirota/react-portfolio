@@ -10,7 +10,7 @@ const Resume = () => {
       <div className="resume-container flex-column">
         <a
           className="action-button"
-          href="images/resume_anya_hirota.pdf"
+          href="images/anya_hirota_resume.pdf"
           download
         >
           Download Resume
@@ -18,7 +18,7 @@ const Resume = () => {
         <img
           className="pic_of_resume"
           alt="resume"
-          src="images/resume_anya_hirota.png"
+          src="images/anya_hirota_resume.png"
         ></img>
       </div>
     </div>
